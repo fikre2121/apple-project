@@ -52,3 +52,10 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+// teh toggler  <i class="fa-solid fa-xmark"></i>
+const naves = document.querySelector(".navbar-collapse");
+const toggler = document.querySelector(".toggler");
+toggler.addEventListener("click", function () {
+toggler.classList.toggle("fa-xmark");
+  naves.classList.toggle("active");
+});
