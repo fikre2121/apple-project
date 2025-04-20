@@ -90,6 +90,20 @@ h2 {
   align-items: center;
   justify-content: space-between;
 }
+/* ******** */
+.navbar-collapse{
+    width: 100% !important;
+    position: absolute;
+    top: 56px;
+    left: 0px !important;
+    background-color:black;
+    z-index: 10000;
+    /* display: none; */
+}
+.active{
+    display: block !important;
+}
+/*********till this  */
 /* Adjust list item spacing */
 .navbar-nav .nav-item {
   margin-left: 20px;
@@ -419,6 +433,16 @@ footer .footer-links-wrapper ul {
     align-items: center;
     justify-content: center;
   }
+
+  .navbar-collapse{
+    width: 100% !important;
+    position: relative;
+    top: 0;
+   background-color:#1D1D1F;
+    /* display: none; */
+}
+
+
   .fa-bars{
     display: none;
   }
